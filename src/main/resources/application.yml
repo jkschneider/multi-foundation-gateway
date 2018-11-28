@@ -1,0 +1,5 @@
+myservice:
+  ribbon:
+    NIWSServerListClassName: com.netflix.loadbalancer.ConfigurationBasedServerList
+    listOfServers: http://metricsdemo.apps.montclair.cf-app.com,http://metricsdemo.apps.seoul.cf-app.com
+    eureka.enabled: false
